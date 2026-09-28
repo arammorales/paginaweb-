@@ -1,0 +1,55 @@
+
+body {
+    font-family: Arial;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+header {
+    background-color: #1f3b5b;
+    color: white;
+    padding: 20px;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+}
+
+button {
+    background-color: #404b4c;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input, select {
+    padding: 8px;
+    margin: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+th {
+    background-color: #dce9f5;
+}

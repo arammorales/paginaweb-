@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Historial de Pedidos</title>
+
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Historial de pedidos </h1>
+    </header>
+
+    <nav>
+        <button>Inicio</button>
+        <button>Productos</button>
+        <button>Pedidos</button>
+        <button>Historial</button>
+    </nav>
+
+    <main>
+
+        <section>
+            <h2>Buscar pedidos</h2>
+
+            <label>Número de orden:</label>
+            <input type="text" placeholder="Pedido 1">
+
+            <label>Estado:</label>
+            <select>
+                <option>Todos</option>
+                <option>Activo</option>
+                <option>En tránsito</option>
+                <option>Entregado</option>
+            </select>
+
+            <br><br>
+
+            <button>Buscar</button>
+            <button>Limpiar</button>
+        </section>
+
+
+        <section>
+            <h2>Pedidos</h2>
+
+            <table>
+
+                <tr>
+                    <th>PO</th>
+                    <th>Fecha</th>
+                    <th>Producto</th>
+                    <th>Estado</th>
+                    <th>Acción</th>
+                </tr>
+
+                <tr>
+                    <td>PO-001</td>
+                    <td>27/09/2026</td>
+                    <td>Motor de búsqueda</td>
+                    <td>En tránsito</td>
+                    <td>
+                        <button>Ver</button>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+
+        <section>
+            <h2>Detalle del pedido</h2>
+
+            <label>Número de orden:</label>
+            <input type="text" value="pedido 1">
+
+            <label>Producto:</label>
+            <input type="text" value="Motor de búsqueda">
+
+            <label>Estado:</label>
+            <input type="text" value="En tránsito">
+
+            <br>
+
+            <button>Guardar</button>
+        </section>
+
+    </main>
+
+</body>
+</html>
